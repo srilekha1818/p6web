@@ -1,4 +1,4 @@
-package demo.rest2311mv.maven.rest.maven;
+package com.update.ctrl;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,18 +7,9 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.security.KeyManagementException;
-import java.security.NoSuchAlgorithmException;
-import java.security.cert.X509Certificate;
-import javax.net.ssl.HostnameVerifier;
-import javax.net.ssl.HttpsURLConnection;
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.SSLSession;
-import javax.net.ssl.TrustManager;
-import javax.net.ssl.X509TrustManager;
 
 import org.apache.http.HttpStatus;
- 
+
 //import org.apache.commons.httpclient.HttpStatus;
  
 public class SampleUpdate {
@@ -42,7 +33,7 @@ public class SampleUpdate {
 	private static String callRestURL(String restUrl, String method) throws Exception {
 		HttpURLConnection conn = null;
 		try {
-			trustAllCert();
+			
 			String cookie = callLoginAPI(restUrl, method, conn);
 			URL postUrl = new URL(postLocationsURL);
 			conn = (HttpURLConnection) postUrl.openConnection();
@@ -107,35 +98,5 @@ public class SampleUpdate {
 		}
 	}
  
-	private static void trustAllCert() throws NoSuchAlgorithmException, KeyManagementException {
-		// Create a trust manager that does not validate certificate chains
-		TrustManager[] trustAllCerts = new TrustManager[] { new X509TrustManager() {
-			@Override
-			public java.security.cert.X509Certificate[] getAcceptedIssuers() {
-				return null;
-			}
- 
-			@Override
-			public void checkClientTrusted(X509Certificate[] certs, String authType) {
-			}
- 
-			@Override
-			public void checkServerTrusted(X509Certificate[] certs, String authType) {
-			}
-		} };
-		// Install the all-trusting trust manager
-		SSLContext sc = SSLContext.getInstance("SSL");
-		sc.init(null, trustAllCerts, new java.security.SecureRandom());
-		HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
-		// Create all-trusting host name verifier
-		HostnameVerifier allHostsValid = new HostnameVerifier() {
-			@Override
-			public boolean verify(String hostname, SSLSession session) {
-				return true;
-			}
-		};
-		// Install the all-trusting host verifier
-		HttpsURLConnection.setDefaultHostnameVerifier(allHostsValid);
-	}
- 
+	
 }

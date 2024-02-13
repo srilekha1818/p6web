@@ -1,0 +1,31 @@
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+
+    <!-- Application-specific logging configuration -->
+    <logger name="com.example.demo.UpdateController" level="DEBUG"/>
+
+    <!-- Configure appenders, layouts, etc. as needed -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+        <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+</appender>
+
+<root level="info">
+    <appender-ref ref="CONSOLE"/>
+</root>
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <file>logs/application.log</file>
+    <encoder>
+        <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+</appender>
+
+<root level="info">
+    <appender-ref ref="FILE"/>
+</root>
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+    <logger name="com.example.demo" level="debug"/>
+    
+
+</configuration>

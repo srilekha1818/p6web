@@ -1,0 +1,23 @@
+<!-- src/main/resources/templates/updateCheckoutDate.html -->
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Update Checkout Date</title>
+</head>
+<body>
+    <h2>Update Checkout Date</h2>
+    <form th:action="@{/updateProject}" th:object="${project}"  method="post">
+        <label for="projectId">Project ID:</label>
+        <input type="text" id="projectId" name="projectId" th:field="*{projectName}"required />
+
+            <label for="startDate">Checkout Date:</label>
+        <input type="date" id="startDate" th:field="*{startDate}" />
+
+        <label for="newCheckoutDate">New Checkout Date:</label>
+        <input type="date" id="newCheckoutDate" name="newCheckoutDate" />
+
+        <button type="submit">Update Checkout Date</button>
+    </form>
+</body>
+</html>

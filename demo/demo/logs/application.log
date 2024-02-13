@@ -1,0 +1,137 @@
+10:35:49.903 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.8 with PID 16828 (C:\Users\lenovo\Downloads\demo\demo\target\classes started by lenovo in C:\Users\lenovo\Downloads\demo\demo)
+10:35:49.907 [main] DEBUG com.example.demo.DemoApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+10:35:49.908 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+10:35:59.414 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.8 with PID 15896 (C:\Users\lenovo\Downloads\demo\demo\target\classes started by lenovo in C:\Users\lenovo\Downloads\demo\demo)
+10:35:59.421 [main] DEBUG com.example.demo.DemoApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+10:35:59.426 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+10:36:01.401 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+10:36:01.431 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:36:01.432 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+10:36:01.625 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:36:01.627 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2088 ms
+10:36:02.270 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+10:36:02.424 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+10:36:02.441 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.699 seconds (process running for 4.532)
+10:36:14.228 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:36:14.228 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:36:14.228 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+10:36:21.343 [http-nio-8080-exec-3] WARN  com.example.demo.UpdateController - Failed to update start date. External service indicated failure.
+10:38:15.851 [http-nio-8080-exec-6] WARN  com.example.demo.UpdateController - Failed to update start date. External service indicated failure.
+10:45:42.537 [http-nio-8080-exec-9] WARN  com.example.demo.UpdateController - Failed to update start date. External service indicated failure.
+10:53:07.232 [http-nio-8080-exec-2] WARN  com.example.demo.UpdateController - Failed to update start date. External service indicated failure.
+11:30:58.774 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.8 with PID 11616 (C:\Users\lenovo\Downloads\demo\demo\target\classes started by lenovo in C:\Users\lenovo\Downloads\demo\demo)
+11:30:58.780 [main] DEBUG com.example.demo.DemoApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+11:30:58.799 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+11:31:01.407 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+11:31:01.440 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:31:01.441 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+11:31:01.618 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:31:01.620 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2587 ms
+11:31:03.556 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+11:31:03.768 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+11:31:03.822 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.768 seconds (process running for 7.622)
+11:31:19.432 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:31:19.432 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:31:19.432 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+11:44:05.144 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.8 with PID 10988 (C:\Users\lenovo\Downloads\demo\demo\target\classes started by lenovo in C:\Users\lenovo\Downloads\demo\demo)
+11:44:05.148 [main] DEBUG com.example.demo.DemoApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+11:44:05.152 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+11:44:06.728 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+11:44:06.742 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:44:06.742 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+11:44:06.824 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:44:06.825 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1600 ms
+11:44:08.431 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+11:44:08.528 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+11:44:08.539 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.043 seconds (process running for 5.632)
+11:44:16.330 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:44:16.330 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:44:16.330 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+12:01:17.945 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.8 with PID 26120 (C:\Users\lenovo\Downloads\demo\demo\target\classes started by lenovo in C:\Users\lenovo\Downloads\demo\demo)
+12:01:17.966 [main] DEBUG com.example.demo.DemoApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+12:01:17.975 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+12:01:20.967 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+12:01:20.979 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:01:20.979 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+12:01:21.297 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:01:21.300 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3113 ms
+12:01:23.031 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:01:23.414 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+12:01:23.508 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 6.143 seconds (process running for 7.212)
+12:01:24.738 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:01:24.738 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:01:24.738 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+12:13:22.038 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.8 with PID 9376 (C:\Users\lenovo\Downloads\demo\demo\target\classes started by lenovo in C:\Users\lenovo\Downloads\demo\demo)
+12:13:22.040 [main] DEBUG com.example.demo.DemoApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+12:13:22.041 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+12:13:24.354 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+12:13:24.371 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:13:24.371 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+12:13:24.477 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:13:24.479 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2370 ms
+12:13:24.898 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:13:25.232 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+12:13:25.247 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.612 seconds (process running for 5.281)
+12:13:25.623 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:13:25.624 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:13:25.627 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+12:18:18.687 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.8 with PID 11576 (C:\Users\lenovo\Downloads\demo\demo\target\classes started by lenovo in C:\Users\lenovo\Downloads\demo\demo)
+12:18:18.709 [main] DEBUG com.example.demo.DemoApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+12:18:18.718 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+12:18:22.315 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+12:18:22.334 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:18:22.334 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+12:18:22.553 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:18:22.568 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3619 ms
+12:18:23.259 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:18:23.356 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+12:18:23.370 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.536 seconds (process running for 6.495)
+12:18:51.471 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:18:51.471 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:18:51.473 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+12:41:34.458 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+12:52:37.918 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.8 with PID 17856 (C:\Users\lenovo\Downloads\demo\demo\target\classes started by lenovo in C:\Users\lenovo\Downloads\demo\demo)
+12:52:37.919 [main] DEBUG com.example.demo.DemoApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+12:52:37.920 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+12:52:47.615 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.8 with PID 21728 (C:\Users\lenovo\Downloads\demo\demo\target\classes started by lenovo in C:\Users\lenovo\Downloads\demo\demo)
+12:52:47.618 [main] DEBUG com.example.demo.DemoApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+12:52:47.619 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+12:52:49.338 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+12:52:49.356 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:52:49.356 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+12:52:49.747 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:52:49.749 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1923 ms
+12:52:50.405 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+12:52:50.637 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+12:52:50.668 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.409 seconds (process running for 5.062)
+12:52:50.800 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:52:50.801 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:52:50.802 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+14:01:59.049 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.8 with PID 15528 (C:\Users\lenovo\Downloads\demo\demo\target\classes started by lenovo in C:\Users\lenovo\Downloads\demo\demo)
+14:01:59.074 [main] DEBUG com.example.demo.DemoApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+14:01:59.079 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+14:02:03.720 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+14:02:03.745 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:02:03.745 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+14:02:03.885 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:02:03.885 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4712 ms
+14:02:04.519 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:02:04.706 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+14:02:04.736 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 6.411 seconds (process running for 7.479)
+14:02:04.945 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:02:04.945 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:02:04.945 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+14:19:47.389 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.8 with PID 1984 (C:\Users\lenovo\Downloads\demo\demo\target\classes started by lenovo in C:\Users\lenovo\Downloads\demo\demo)
+14:19:47.392 [main] DEBUG com.example.demo.DemoApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+14:19:47.393 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+14:19:49.326 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+14:19:49.341 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:19:49.341 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+14:19:49.523 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:19:49.527 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2045 ms
+14:19:50.087 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+14:19:50.212 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+14:19:50.255 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.676 seconds (process running for 4.685)
+14:19:55.690 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:19:55.690 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:19:55.690 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
