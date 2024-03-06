@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Project</title>
+</head>
+<body>
+    <h1>Create Project</h1>
+    
+    <form id="createForm" th:action="@{/projects/create}" method="post">
+        <label for="id">Project ID:</label>
+        <input type="text" id="id" name="id" required>
+        <br>
+        
+        <label for="name">Project Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        
+        <label for="epsid">Project EPS Name:</label>
+        <input type="text" id="epsid" name="epsid" required>
+        <br>
+                   <input type="submit" value="create">
+
+    </form>
+
+   </body>
+</html>

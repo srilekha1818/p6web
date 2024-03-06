@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .table-container {
+            width: 80%;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to P6 CRUD Operations</h2>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Operation</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a th:href="@{/projects/formpro}" class="btn">Read Operation</a></td>
+                    <td>Search and retrieve data of Records</td>
+                </tr>
+                <tr>
+                    <td><a th:href="@{/projects/form}" class="btn">Create Operation</a></td>
+                    <td>Create New Records</td>
+                </tr>
+                <tr>
+                    <td><a th:href="@{/projects/update}" class="btn">Update Operation</a></td>
+                    <td>Modify existing Records</td>
+                </tr>
+                <tr>
+                    <td><a th:href="@{/projects/delete}" class="btn">Delete Operation</a></td>
+                    <td>Delete an existing Record</td>
+                </tr>
+                <!-- Add rows for other CRUD operations as needed -->
+            </tbody>
+        </table>
+    </div>
+
+    <div class="btn-container">
+        <!-- Add buttons for other non-CRUD operations if needed -->
+    </div>
+</body>
+</html>
+

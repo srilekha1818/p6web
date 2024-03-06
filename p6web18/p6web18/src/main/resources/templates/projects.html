@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Projects by EPS</title>
+</head>
+<body>
+    <form th:action="@{/projects/projects-by-eps}" method="get">
+        <label for="epsId">Enter EPS ID:</label>
+        <input type="text" id="epsId" name="epsId" required>
+                   <input type="submit" value="submit">
+
+    </form>
+
+    
+</body>
+</html>
